@@ -1,101 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&amp;display=swap" rel="stylesheet">
+    <title>Leon Banks</title>
 </head>
+
 <body>
-    <header class="navigation">
-<div class="inline-block logo">
-</div>
-<nav class="inline-block">
-    <ul>
-        <li class="inline-block">about</li>
-        <li class="inline-block">skills</li>
-        <li class="inline-block">work</li>
-        <li class="inline-block">contact</li>
-    </ul>
-</nav>
-    </header>
-    <section class="herImg">
-        <div class="content">
-            <img src="New Shot 2.png" height: 300px width: 400px>
-            <p>Hi I’m Leon Banks! I am passionate about solving problems via the great medium of story-telling.  Being amongst the people and hearing their stories is how I approach and complete my design process. 
 
-                I take pertinent data gathered from said stories to help continue telling YOUR story. Use me as a vessel.  I love to help those that want to be helped. 
-                 </p>
-            <button>Download Resume</button>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <h4>
+                Leon Banks | UX/UI </h4>
         </div>
-    </section>
-    <!--My UX Skills section coded using CSS flex-->
-    <section class="mySkills">
-        <h1>My UX Skills</h1>
-        <div class="flex-container">
-            <div>
-                <img src="Research.jpg" alt="post its" style="width:100px;height:100px;">
-                 <h3>USER RESEARCH</h3> 
-                  <p>I heavily rely on in-person phone interviews, online surveys and focus groups.</p>
-                    </div>
-
-            <div>
-                <img src="EMPATHY.jpg" alt="hands" style="width:100px;height:100px;">
-                 <h3>USER EMPATHY</h3>
-                  <p>My approach to user empathy is LISTENING.  The user will guide me to the purpose behind my next decision.</p>
-                     </div>
-
-            <div>
-                <img src="Interview.jpg" alt="three women" style="width:100px;height:100px;">
-                 <h3>QUALITATIVE INTERVIEWS</h3>
-                  <p>In person interviews, Prototyping feedback, Surveys</p>
-                     </div>
-
-         </div>
-
-    </section>
-    <!--My Work section Constructed using CSS flex-->
-    <section class="myWork">
-        <h1>My WORK</h1>
-        <div class="workGrid">
-            <div class="LHTY">
-                <img src="LHTY.png" alt="kids" style="width:100px;height:100px;">
-                     </div>
-            <div>
-                <h4></h4>
-                     <p></p>
-                        <button></button>
-                          </div>
-
-            <div class="LHTY2">
-                <img src="LHTY.png" alt="kids" style="width:100px;height:100px;">
-                     </div>
-            <div>
-                <h4></h4>
-                   <p></p>
-                      <button></button>
-                         </div>
-
-            <div class="FRIDGE">
-                  <img src="FRIDGE.png" alt="food" style="width:100px;height:100px;">
-                     </div>
-            <div>
-                <h4></h4>
-                   <p></p>
-                       <button></button>
-                         </div>
-        </div>
-        <h3> VIEW ALL PROJECTS</h3>
-    </section>
-        
-   
-    <footer>
-        <ul>
-            <li class="inline-block">about</li>
-            <li class="inline-block">skills</li>
-            <li class="inline-block">work</li>
-            <li class="inline-block">contact</li>
+        <ul class="nav-links">
+            <li>
+                <a href="#Home">Home</a>
+            </li>
+            <li>
+                <a href="#aboutMe">About</a>
+            </li>
+            <!-- <li>
+                <a href="#Contact">Contact</a>
+            </li> -->
         </ul>
-    </footer>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+
+        </div>
+    </nav>
+    <!--HOME-->
+    <div class="aboveFold"><a name="Home"></a>
+        <div class="intro">
+            <img src="images/New shot 2.png" alt="Me" class="Me">
+            <p class="summary">
+                Hi I’m Leon Banks! I am passionate about solving problems via the great medium of story-telling.  Being amongst the people and hearing their stories is how I approach and complete my design process. 
+
+I take pertinent data gathered from said stories to help continue telling YOUR story. Use me as a vessel.  I love to help those that want to be helped. 
+
+            </p>
+             <!-- <a href="#aboutMe"><button>Read More <br> About Me</button></a>
+            <br> -->
+            <br>
+            <a href="https://www.linkedin.com/in/leonanthonybanks/"><img class="icons" src="images/linkedin.png"></a>
+            <a href="mailto:leonanthonybanks@gmail.com?Subject=Portfolio" target="_top"><img class="icons" src="images/Email.png"></a>
+            <a href="https://www.behance.net/leonbanks"><img class="icons" src="images/Behance.png"></a>
+        </div>
+
+    <!--WORK-->
+    <div class="work">
+        <div class="WIYFcontainer">
+            <a href="https://www.behance.net/gallery/95371903/Whats-in-Your-Fridge-Mobile-App-Case-Study">
+                <img class="WIYF" src="images/FRIDGE.png" alt="WIYF App Case Study">
+            </a>
+            <div>
+                <a href="https://www.behance.net/gallery/95371903/Whats-in-Your-Fridge-Mobile-App-Case-Study">
+                    <img src="images/FRIDGE_HOVER.png" alt="WIYF" class="WIYFhover">
+                </a>
+            </div>
+        </div>
+
+        <div class="LHTYcontainer">
+            <a href="https://www.behance.net/gallery/95380813/Live-Healthy-Thrive-Youth-Foundation-re-design">
+                <img class="LHTY" src="images/LHTY.png" alt="LHTY Website Redesign Case Study">
+            </a>
+            <div>
+                <a href="https://www.behance.net/gallery/95380813/Live-Healthy-Thrive-Youth-Foundation-re-design">
+                    <img src="images/LHTY_HOVER.png" alt="LHTY" class="LHTYhover">
+                </a>
+            </div>
+        </div>
+    </div>
+
+<!-- More About Me -->
+
+<div class="moreaboutme"> <a name="aboutMe"></a>
+    <div class="middletext">
+        <h1>More About Me</h1>
+        <br>
+        <p>
+            I learned UX/UI design through a Georgia Tech Bootcamp in Atlanta, Ga. I have always been a people person and have displayed a 
+            true passion for wanting to know what makes people tick?  Why do we do the things we do?; a question I've always wondered. 
+        </p>
+        <br>
+        <p>
+            I have worked on projects focused on user research, wireframing and UI design. When creating designs, I
+            constantly refer back to my user research to make sure the intent of my design is in tact.
+        </p>
+        <br>
+        <p>
+            Outside of design, I enjoy filmmaking, volunteering at animal shelters, DIY projects and exercising. 
+        </p>
+        <br>
+        <a href="https://drive.google.com/file/d/1tpMsCronY7ZfyiG8QxK5rG7MuMzpABKb/view?usp=sharing">
+            <button class="Resume">Resume</button>
+        </a>
+    </div>
+    <div class="aboutmeimages">
+        <img class="film" src="images/Moreaboutfilm.png" alt="film">
+        <img class="animals" src="images/Moreaboutanimals.png" alt="animals">
+    </div>
+</div>
+
+    <!-- Contact -->
+    <!-- <div class="contact"><a name="Contact"></a>
+        <h1>Contact Me</h1>
+        <p class="contacttext">Lets Connect<a href="https://www.linkedin.com/in/katherine-arias"><img
+                    class="contacticons" src="images/linkedin for contact.png"></a>
+        </p>
+        <p class="contacttext">Message Me
+            <a href="mailto:arias.katherine1@gmail.com?Subject=Portfolio" target="_top"><img class="contacticons"
+                    src="images/email for contact.png"></a>
+        </p>
+        <p class="contacttext">Check Out My Work
+            <a href="https://www.behance.net/katherinearias1"><img class="contacticons" id="behancecontact"
+                    src="images/behance for contact.png"></a>
+        </p>
+        <a href="https://forms.gle/4yTmcZnrbHNhFH24A"><p>Help me improve my page</p></a>
+    </div> -->
+
+
+
+        <!-- FOOTER -->
+    <footer>
+        <p>
+        <a href="https://www.linkedin.com/in/leonanthonybanks/"><img class="footericons" src="images/linkedin.png"></a>
+        <a href="mailto:leonanthonybanks@gmail.com?Subject=Portfolio" target="_top"><img class="footericons" src="images/Email.png"></a>
+        <a href="https://www.behance.net/leonbanks"><img class="footericons" src="images/Behance.png"></a></p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe-cmr3D-F41dYc9bIhzj4yqD4M4Wb4l9ZUxsRSIfoF86oaug/viewform?usp=sf_link"><p>Help me improve my page</p></a>
+        <p class="footer"><img src="images/copyright.png" height="20px">
+            
+            2020 Leon Banks, all rights reserved. Fighting the Good Fight
+        
+        </p>
+        </footer>
+        <div id="preloader">
+            <img src="images/Logo.png">
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script src="index.js"></script>
+
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+          
+            gtag('config', 'UA-165673167-1');
+          </script>
 </body>
 </html>
+
